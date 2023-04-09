@@ -10,7 +10,7 @@
 <br />
 
 <h1 align="center">Sobre este Repositório</h1>
-<p>Aqui estão exercícios de pratica de backend, relacionados a docker, banco de dados, NodeJS e etc...</p>
+<p align="center">Aqui estão exercícios de pratica de backend, relacionados a docker, banco de dados, NodeJS e etc...</p>
 <br />
 
 <h1 align="center">Como clonar o repositório</h1>
