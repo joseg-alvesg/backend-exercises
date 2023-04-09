@@ -1,9 +1,9 @@
 <h1 align='center'>backend-exercises</h1>
 
 <div align="center">
-  <image src="./images/docker-logo.png" width="300"></image>
+  <image src="./images/docker-logo.png" width="330"></image>
   <image src="./images/mysql_logo.png" width="200"></image>
-  <image src="./images/Nodejs-Logo.png" width="300"></image>
+  <image src="./images/Nodejs-Logo.png" width="330"></image>
   <image src="./images/typescript.png" width="200"></image>
 </div>
 
