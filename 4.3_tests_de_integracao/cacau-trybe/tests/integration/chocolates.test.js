@@ -2,6 +2,7 @@
 
 const chai = require('chai');
 const chaiHttp = require('chai-http');
+const app = require('../../src/app');
 
 const { expect } = chai;
 
@@ -16,7 +17,7 @@ describe('Testando a API Cacau Trybe', function () {
         { id: 3, name: 'Mon Chéri', brandId: 2 },
         { id: 4, name: 'Mounds', brandId: 3 },
       ];
-
+ 
       const response = await chai
         .request(app)
         .get('/chocolates');
