@@ -29,7 +29,7 @@ const getChocolatesByBrand = async (brandId) => {
   return cacauTrybe.chocolates
     .filter((chocolate) => chocolate.brandId === brandId);
 };
-
+// test
 module.exports = {
     getAllChocolates,
     getChocolateById,
