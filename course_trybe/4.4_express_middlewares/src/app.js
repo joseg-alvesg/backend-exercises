@@ -55,7 +55,7 @@ const validateTeam = (req, res, next) => {
   if (requiredProperties.every((property) => property in req.body)) {
     next(); // Chama o próximo middleware
   } else {
-    res.sendStatus(400); // Ou já responde avisando que deu errado
+    res.status(400).json({message: "tá errado"}); // Ou já responde avisando que deu errado
   }
 };
 
