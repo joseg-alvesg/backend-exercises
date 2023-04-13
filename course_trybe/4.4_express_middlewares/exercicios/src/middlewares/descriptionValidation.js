@@ -9,7 +9,7 @@
 // }
 
 const descriptionValidation = (reqValue, res, value) => {
-  if(!value) {
+  if(!reqValue) {
     return res.status(400).json({message: `O campo ${value} é obrigatorio`})
   }
 };
