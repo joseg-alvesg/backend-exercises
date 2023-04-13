@@ -6,6 +6,7 @@ const descriptionValidation = require('./middlewares/descriptionValidation')
 const descriptionValuesValidation = require('./middlewares/descriptionValuesValidation')
 const generateToken = require('./utils/generateToken')
 const user = require("./middlewares/user")
+const autentication = require('./middlewares/autentication')
 
 const token = generateToken();
 
@@ -14,6 +15,7 @@ const app = express();
 app.use(express.json());
 
 app.post('/activities',
+  autentication,
   nameValidation,
   priceValidation,
   descriptionValidation,
