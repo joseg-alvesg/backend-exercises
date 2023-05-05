@@ -15,8 +15,23 @@ const create = async (object) => {
   return book;
 }
 
+const update = async (id, {title, author, pageQuantity}) => {
+  const [book] = await Book.update({title, author, pageQuantity}, {where: {id}})
+  return book;
+}
+
+const remove = async (id) => {
+  const book = await Book.destroy(id)
+  console.log(book);
+  return book
+}
+
+
+
 module.exports = {
   getAll,
   findById,
   create,
+  update,
+  remove,
 }
