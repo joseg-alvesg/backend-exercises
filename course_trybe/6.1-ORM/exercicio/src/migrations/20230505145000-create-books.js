@@ -11,7 +11,7 @@ module.exports = {
       },
       title: {
         allowNull: false,
-        type: DataTypes.INTEGER,
+        type: DataTypes.STRING,
       },
       author: {
         allowNull: false,
@@ -25,6 +25,7 @@ module.exports = {
         allowNull: false,
         type: DataTypes.DATE,
       },
+      // updatedAt: false,
       updatedAt: {
         allowNull: false,
         type: DataTypes.DATE,
